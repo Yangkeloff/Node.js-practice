@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+        var str = 'hfdjska{nAme1}fnb{name2}xzm{}bz';
+        var re = /\{.*?}/gi;
+        // 1个'.'表示1个字符 , '{1,}'表示至少有1个
+        // i表示不区分大小写,g表示全局,'\'为转义字符
+        // +匹配前面的子表达式至少出现1次，相当于{1,}
+        // *匹配前面的子表达式0次或多次相当于{0,}
+        // ?匹配前面的子表达式0次或1次   
+        window.onload = function() {
+            if (re.test(str)) { // 匹配str中是否含有re
+                alert('含');
+            } else {
+                alert('没');
+            }
+            var newStr = str.replace(re, '张三');
+            // 替换str中re部分为'张三'
+            alert(newStr);
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

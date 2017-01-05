@@ -1,0 +1,24 @@
+{
+  "name": "node-ractice-lookhe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "dependencies": {
+    "async": "^2.1.4",
+    "mysql": "^2.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yangkeloff/Node.js-practice-LookHe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yangkeloff/Node.js-practice-LookHe/issues"
+  },
+  "homepage": "https://github.com/Yangkeloff/Node.js-practice-LookHe#readme"
+}
